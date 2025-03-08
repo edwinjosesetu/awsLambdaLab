@@ -1,0 +1,28 @@
+{
+  "name": "simple-app",
+  "version": "0.1.0",
+  "bin": {
+    "simple-app": "bin/simple-app.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.147",
+    "@types/node": "22.12.0",
+    "aws-cdk": "2.176.0",
+    "esbuild": "^0.25.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.738.0",
+    "@aws-sdk/lib-dynamodb": "^3.738.0",
+    "@aws-sdk/util-dynamodb": "^3.738.0",
+    "aws-cdk-lib": "^2.181.1",
+    "constructs": "^10.4.2",
+    "source-map-support": "^0.5.21"
+  }
+}
